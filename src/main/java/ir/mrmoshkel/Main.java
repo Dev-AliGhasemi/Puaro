@@ -45,7 +45,7 @@ public class Main {
 
             @Override
             public void nativeKeyReleased(NativeKeyEvent nativeEvent) {
-                NativeKeyListener.super.nativeKeyReleased(nativeEvent);
+                isCtrlPressed = false;
             }
         });
 
